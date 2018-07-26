@@ -15,8 +15,7 @@ class CashRegister
 
 		transaction = price * quantity
 
-		self.previous = transaction
-
+		self.previous_transaction = transaction
 		self.total += transaction
 
 		for i in 1..quantity
